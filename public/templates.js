@@ -1,0 +1,1 @@
+angular.module('demo').run(['$templateCache', function($templateCache) {$templateCache.put('/src/common/a.html','<p>test dummy</p>\n<div ng-controller="WelcomeController">\n    {{greeting}}\n\n  \n  </div>');}]);
